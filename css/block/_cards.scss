@@ -1,0 +1,62 @@
+.card__inner {
+  margin: 0;
+}
+
+.card {
+  width: 100%;
+  background-color: $bg;
+
+  border: 0;
+
+  @media #{$mobile} {
+    margin: 15px 0;
+  }
+
+  transition: transform .2s linear;
+  cursor: pointer;
+
+  &:hover {
+    transform: translate3d(-15px,-15px, 0);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.card__img {
+  margin-bottom: 25px;
+
+  text-align: center;
+}
+
+.card-title {
+  margin-bottom: 11px;
+
+  text-align: center;
+
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "PT Sans", sans-serif;
+}
+
+.card-text {
+  text-align: left;
+  margin-bottom: 37px;
+
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "PT Sans", sans-serif;
+}
+
+.card-link {
+  font-size: 14px;
+  color: #1657AB;
+  font-weight: 400;
+  font-family: "PT Sans", sans-serif;
+
+  &:hover {
+    color: $hover;
+  }
+
+  &:active {
+    color: $active;
+  }
+}

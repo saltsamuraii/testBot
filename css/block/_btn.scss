@@ -1,0 +1,25 @@
+.btn {
+  display: block;
+  padding: 18px 50px;
+  margin: 0 auto;
+
+  font-size: 14px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  color: $primary;
+
+  border: 1px solid #85B657;
+
+  background-color: transparent;
+
+  &:hover {
+    color: $primary;
+    background: #00aa4b;
+    border: 1px solid #85B657;
+  }
+
+
+  @media #{$mobile} {
+    margin-top: 30px;
+  }
+}

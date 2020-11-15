@@ -1,0 +1,37 @@
+.col {
+  text-align: center;
+}
+
+.col-card-item {
+  display: flex;
+}
+
+.col-item {
+  @media #{$mobile} {
+    margin: 15px 0;
+  }
+}
+
+.col__title {
+  margin-top: 25px;
+
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "PT Sans", sans-serif;
+}
+
+.col__text  {
+
+  margin-top: 11px;
+
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "PT Sans", sans-serif;
+}
+
+
+.col-sm {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}

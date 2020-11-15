@@ -1,0 +1,16 @@
+.partners {
+  display: flex;
+  justify-content: center;
+
+  @media #{$mobile} {
+    margin-bottom: 30px;
+  }
+}
+
+.partners__logo {
+  margin: 0 15px;
+
+  @media #{$tablet} {
+    margin: 0;
+  }
+}

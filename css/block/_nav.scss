@@ -1,0 +1,75 @@
+.nav {
+  @media #{$tablet} {
+    display: none;
+  }
+}
+
+.nav.active {
+  width: 100%;
+
+  display: block;
+  position: fixed;
+  text-align: left;
+
+  left: 0;
+  top: 10%;
+
+  background-color: #1F2E4B;
+  z-index: 9999;
+}
+
+.nav-right {
+  margin-left: 80px;
+
+  @media #{$notebook} {
+    margin-left: 40px;
+  }
+
+  @media #{$tablet} {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    margin: 0;
+  }
+}
+
+.nav-left {
+  @media #{$tablet} {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    margin: 0;
+  }
+}
+
+.nav__link {
+  margin-right: 60px;
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
+  color: $secondary;
+
+
+  &:hover {
+    text-decoration: none;
+    color: $hover;
+  }
+
+  &:active {
+    color: $active;
+  }
+
+  @media #{$notebook} {
+    margin-right: 30px;
+  }
+
+  @media #{$tablet} {
+    padding: 10px 5px;
+
+    &:hover {
+      background: #fff;
+    }
+  }
+}
+
