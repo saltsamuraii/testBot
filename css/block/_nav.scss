@@ -12,10 +12,10 @@
   text-align: left;
 
   left: 0;
-  top: 10%;
+  top: 0;
 
   background-color: #1F2E4B;
-  z-index: 9999;
+  z-index: 1000;
 }
 
 .nav-right {
@@ -66,10 +66,6 @@
 
   @media #{$tablet} {
     padding: 10px 5px;
-
-    &:hover {
-      background: #fff;
-    }
   }
 }
 

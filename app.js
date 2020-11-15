@@ -5,8 +5,8 @@ document.getElementById('navToggle').addEventListener('click',function(e){
         this.classList.remove('active');
         document.getElementById('showMenu').classList.remove('active');
 
-    }
-    else {
+    } else {
+
         this.classList.add('active');
         document.getElementById('showMenu').classList.add('active');
     }

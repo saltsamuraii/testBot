@@ -37,11 +37,12 @@ p {
 @media (max-width: 991px) {
   .burger {
     display: block;
-    position: absolute;
-    margin: 10px 15px;
+    position: fixed;
+    margin: 0 30px;
     right: 0;
     background: none;
     border: none;
+    z-index: 9999;
   }
 }
 
@@ -97,9 +98,9 @@ p {
   position: fixed;
   text-align: left;
   left: 0;
-  top: 10%;
+  top: 0;
   background-color: #1F2E4B;
-  z-index: 9999;
+  z-index: 1000;
 }
 
 .nav-right {
@@ -149,9 +150,6 @@ p {
 @media (max-width: 991px) {
   .nav__link {
     padding: 10px 5px;
-  }
-  .nav__link:hover {
-    background: #fff;
   }
 }
 
@@ -333,6 +331,7 @@ p {
 
 .row__item-center {
   align-items: center;
+  text-align: center;
 }
 
 .btn {

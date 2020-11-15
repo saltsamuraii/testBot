@@ -3,13 +3,14 @@
 
   @media #{$tablet} {
     display: block;
-    position: absolute;
-    margin: 10px 15px;
+    position: fixed;
+    margin: 0 30px;
 
     right: 0;
 
     background: none;
     border: none;
+    z-index: 9999;
   }
 }
 
